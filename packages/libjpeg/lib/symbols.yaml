@@ -1,0 +1,64 @@
+format_version: 1.0.0
+files:
+  package:libjpeg/libjpeg.dart:
+    used-config:
+      ffi-native: false
+    symbols:
+      c:@EA@JPEGMarker:
+        name: JPEGMarker
+      c:@F@jpeg_data_append_section:
+        name: jpeg_data_append_section
+      c:@F@jpeg_data_dump:
+        name: jpeg_data_dump
+      c:@F@jpeg_data_free:
+        name: jpeg_data_free
+      c:@F@jpeg_data_get_exif_data:
+        name: jpeg_data_get_exif_data
+      c:@F@jpeg_data_load_data:
+        name: jpeg_data_load_data
+      c:@F@jpeg_data_load_file:
+        name: jpeg_data_load_file
+      c:@F@jpeg_data_log:
+        name: jpeg_data_log
+      c:@F@jpeg_data_new:
+        name: jpeg_data_new
+      c:@F@jpeg_data_new_from_data:
+        name: jpeg_data_new_from_data
+      c:@F@jpeg_data_new_from_file:
+        name: jpeg_data_new_from_file
+      c:@F@jpeg_data_ref:
+        name: jpeg_data_ref
+      c:@F@jpeg_data_save_data:
+        name: jpeg_data_save_data
+      c:@F@jpeg_data_save_file:
+        name: jpeg_data_save_file
+      c:@F@jpeg_data_set_exif_data:
+        name: jpeg_data_set_exif_data
+      c:@F@jpeg_data_unref:
+        name: jpeg_data_unref
+      c:@F@jpeg_marker_get_description:
+        name: jpeg_marker_get_description
+      c:@F@jpeg_marker_get_name:
+        name: jpeg_marker_get_name
+      c:@S@_JPEGContentGeneric:
+        name: _JPEGContentGeneric
+      c:@S@_JPEGData:
+        name: _JPEGData
+      c:@S@_JPEGDataPrivate:
+        name: _JPEGDataPrivate
+      c:@S@_JPEGSection:
+        name: _JPEGSection
+      c:@U@_JPEGContent:
+        name: _JPEGContent
+      c:jpeg-data.h@T@JPEGContent:
+        name: JPEGContent
+      c:jpeg-data.h@T@JPEGContentAPP1:
+        name: JPEGContentAPP1
+      c:jpeg-data.h@T@JPEGContentGeneric:
+        name: JPEGContentGeneric
+      c:jpeg-data.h@T@JPEGData:
+        name: JPEGData
+      c:jpeg-data.h@T@JPEGDataPrivate:
+        name: JPEGDataPrivate
+      c:jpeg-data.h@T@JPEGSection:
+        name: JPEGSection

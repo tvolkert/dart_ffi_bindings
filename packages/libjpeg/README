@@ -1,0 +1,13 @@
+### To generate the ffi bindings
+
+$ dart run ffigen
+
+### To compile libjpeg.dylib
+
+```shell
+gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE="exif" -DLOCALEDIR="/usr/local/share/locale" -Wall -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith -I/usr/local/include -g -O2 -c -o jpeg-data.o jpeg-data.c
+
+gcc -DHAVE_CONFIG_H -I. -I.. -DGETTEXT_PACKAGE="exif" -DLOCALEDIR="/usr/local/share/locale" -Wall -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith -I/usr/local/include -g -O2 -c -o jpeg-marker.o jpeg-marker.c
+
+gcc  -g -O2 -g -Wall -dynamiclib -o libjpeg.dylib jpeg-data.o jpeg-marker.o -L/usr/local/lib -lexif
+```

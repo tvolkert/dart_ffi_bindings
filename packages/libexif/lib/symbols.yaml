@@ -1,0 +1,440 @@
+format_version: 1.0.0
+files:
+  package:libexif/libexif.dart:
+    used-config:
+      ffi-native: false
+    symbols:
+      c:@E@OlympusVersion:
+        name: OlympusVersion
+      c:@E@PentaxVersion:
+        name: PentaxVersion
+      c:@E@_MnoteAppleTag:
+        name: _MnoteAppleTag
+      c:@E@_MnoteCanonTag:
+        name: _MnoteCanonTag
+      c:@E@_MnoteFujiTag:
+        name: _MnoteFujiTag
+      c:@E@_MnoteOlympusTag:
+        name: _MnoteOlympusTag
+      c:@E@_MnotePentaxTag:
+        name: _MnotePentaxTag
+      c:@EA@ExifByteOrder:
+        name: ExifByteOrder
+      c:@EA@ExifDataOption:
+        name: ExifDataOption
+      c:@EA@ExifDataType:
+        name: ExifDataType
+      c:@EA@ExifFormat:
+        name: ExifFormat
+      c:@EA@ExifIfd:
+        name: ExifIfd
+      c:@EA@ExifLogCode:
+        name: ExifLogCode
+      c:@EA@ExifSupportLevel:
+        name: ExifSupportLevel
+      c:@EA@ExifTag:
+        name: ExifTag
+      c:@F@exif_array_set_byte_order:
+        name: exif_array_set_byte_order
+      c:@F@exif_byte_order_get_name:
+        name: exif_byte_order_get_name
+      c:@F@exif_content_add_entry:
+        name: exif_content_add_entry
+      c:@F@exif_content_dump:
+        name: exif_content_dump
+      c:@F@exif_content_fix:
+        name: exif_content_fix
+      c:@F@exif_content_foreach_entry:
+        name: exif_content_foreach_entry
+      c:@F@exif_content_free:
+        name: exif_content_free
+      c:@F@exif_content_get_entry:
+        name: exif_content_get_entry
+      c:@F@exif_content_get_ifd:
+        name: exif_content_get_ifd
+      c:@F@exif_content_log:
+        name: exif_content_log
+      c:@F@exif_content_new:
+        name: exif_content_new
+      c:@F@exif_content_new_mem:
+        name: exif_content_new_mem
+      c:@F@exif_content_ref:
+        name: exif_content_ref
+      c:@F@exif_content_remove_entry:
+        name: exif_content_remove_entry
+      c:@F@exif_content_unref:
+        name: exif_content_unref
+      c:@F@exif_convert_utf16_to_utf8:
+        name: exif_convert_utf16_to_utf8
+      c:@F@exif_data_dump:
+        name: exif_data_dump
+      c:@F@exif_data_fix:
+        name: exif_data_fix
+      c:@F@exif_data_foreach_content:
+        name: exif_data_foreach_content
+      c:@F@exif_data_free:
+        name: exif_data_free
+      c:@F@exif_data_get_byte_order:
+        name: exif_data_get_byte_order
+      c:@F@exif_data_get_data_type:
+        name: exif_data_get_data_type
+      c:@F@exif_data_get_mnote_data:
+        name: exif_data_get_mnote_data
+      c:@F@exif_data_load_data:
+        name: exif_data_load_data
+      c:@F@exif_data_log:
+        name: exif_data_log
+      c:@F@exif_data_new:
+        name: exif_data_new
+      c:@F@exif_data_new_from_data:
+        name: exif_data_new_from_data
+      c:@F@exif_data_new_from_file:
+        name: exif_data_new_from_file
+      c:@F@exif_data_new_mem:
+        name: exif_data_new_mem
+      c:@F@exif_data_option_get_description:
+        name: exif_data_option_get_description
+      c:@F@exif_data_option_get_name:
+        name: exif_data_option_get_name
+      c:@F@exif_data_ref:
+        name: exif_data_ref
+      c:@F@exif_data_save_data:
+        name: exif_data_save_data
+      c:@F@exif_data_set_byte_order:
+        name: exif_data_set_byte_order
+      c:@F@exif_data_set_data_type:
+        name: exif_data_set_data_type
+      c:@F@exif_data_set_option:
+        name: exif_data_set_option
+      c:@F@exif_data_unref:
+        name: exif_data_unref
+      c:@F@exif_data_unset_option:
+        name: exif_data_unset_option
+      c:@F@exif_entry_dump:
+        name: exif_entry_dump
+      c:@F@exif_entry_fix:
+        name: exif_entry_fix
+      c:@F@exif_entry_free:
+        name: exif_entry_free
+      c:@F@exif_entry_get_value:
+        name: exif_entry_get_value
+      c:@F@exif_entry_initialize:
+        name: exif_entry_initialize
+      c:@F@exif_entry_new:
+        name: exif_entry_new
+      c:@F@exif_entry_new_mem:
+        name: exif_entry_new_mem
+      c:@F@exif_entry_ref:
+        name: exif_entry_ref
+      c:@F@exif_entry_unref:
+        name: exif_entry_unref
+      c:@F@exif_format_get_name:
+        name: exif_format_get_name
+      c:@F@exif_format_get_size:
+        name: exif_format_get_size
+      c:@F@exif_get_gps_tag_info:
+        name: exif_get_gps_tag_info
+      c:@F@exif_get_long:
+        name: exif_get_long
+      c:@F@exif_get_rational:
+        name: exif_get_rational
+      c:@F@exif_get_short:
+        name: exif_get_short
+      c:@F@exif_get_slong:
+        name: exif_get_slong
+      c:@F@exif_get_srational:
+        name: exif_get_srational
+      c:@F@exif_get_sshort:
+        name: exif_get_sshort
+      c:@F@exif_ifd_get_name:
+        name: exif_ifd_get_name
+      c:@F@exif_loader_get_buf:
+        name: exif_loader_get_buf
+      c:@F@exif_loader_get_data:
+        name: exif_loader_get_data
+      c:@F@exif_loader_log:
+        name: exif_loader_log
+      c:@F@exif_loader_new:
+        name: exif_loader_new
+      c:@F@exif_loader_new_mem:
+        name: exif_loader_new_mem
+      c:@F@exif_loader_ref:
+        name: exif_loader_ref
+      c:@F@exif_loader_reset:
+        name: exif_loader_reset
+      c:@F@exif_loader_unref:
+        name: exif_loader_unref
+      c:@F@exif_loader_write:
+        name: exif_loader_write
+      c:@F@exif_loader_write_file:
+        name: exif_loader_write_file
+      c:@F@exif_log:
+        name: exif_log
+      c:@F@exif_log_code_get_message:
+        name: exif_log_code_get_message
+      c:@F@exif_log_code_get_title:
+        name: exif_log_code_get_title
+      c:@F@exif_log_free:
+        name: exif_log_free
+      c:@F@exif_log_new:
+        name: exif_log_new
+      c:@F@exif_log_new_mem:
+        name: exif_log_new_mem
+      c:@F@exif_log_ref:
+        name: exif_log_ref
+      c:@F@exif_log_set_func:
+        name: exif_log_set_func
+      c:@F@exif_log_unref:
+        name: exif_log_unref
+      c:@F@exif_logv:
+        name: exif_logv
+      c:@F@exif_mem_alloc:
+        name: exif_mem_alloc
+      c:@F@exif_mem_free:
+        name: exif_mem_free
+      c:@F@exif_mem_new:
+        name: exif_mem_new
+      c:@F@exif_mem_new_default:
+        name: exif_mem_new_default
+      c:@F@exif_mem_realloc:
+        name: exif_mem_realloc
+      c:@F@exif_mem_ref:
+        name: exif_mem_ref
+      c:@F@exif_mem_unref:
+        name: exif_mem_unref
+      c:@F@exif_mnote_data_apple_identify:
+        name: exif_mnote_data_apple_identify
+      c:@F@exif_mnote_data_apple_new:
+        name: exif_mnote_data_apple_new
+      c:@F@exif_mnote_data_canon_identify:
+        name: exif_mnote_data_canon_identify
+      c:@F@exif_mnote_data_canon_new:
+        name: exif_mnote_data_canon_new
+      c:@F@exif_mnote_data_construct:
+        name: exif_mnote_data_construct
+      c:@F@exif_mnote_data_count:
+        name: exif_mnote_data_count
+      c:@F@exif_mnote_data_fuji_identify:
+        name: exif_mnote_data_fuji_identify
+      c:@F@exif_mnote_data_fuji_new:
+        name: exif_mnote_data_fuji_new
+      c:@F@exif_mnote_data_get_description:
+        name: exif_mnote_data_get_description
+      c:@F@exif_mnote_data_get_id:
+        name: exif_mnote_data_get_id
+      c:@F@exif_mnote_data_get_name:
+        name: exif_mnote_data_get_name
+      c:@F@exif_mnote_data_get_title:
+        name: exif_mnote_data_get_title
+      c:@F@exif_mnote_data_get_value:
+        name: exif_mnote_data_get_value
+      c:@F@exif_mnote_data_load:
+        name: exif_mnote_data_load
+      c:@F@exif_mnote_data_log:
+        name: exif_mnote_data_log
+      c:@F@exif_mnote_data_olympus_identify:
+        name: exif_mnote_data_olympus_identify
+      c:@F@exif_mnote_data_olympus_new:
+        name: exif_mnote_data_olympus_new
+      c:@F@exif_mnote_data_pentax_identify:
+        name: exif_mnote_data_pentax_identify
+      c:@F@exif_mnote_data_pentax_new:
+        name: exif_mnote_data_pentax_new
+      c:@F@exif_mnote_data_ref:
+        name: exif_mnote_data_ref
+      c:@F@exif_mnote_data_save:
+        name: exif_mnote_data_save
+      c:@F@exif_mnote_data_set_byte_order:
+        name: exif_mnote_data_set_byte_order
+      c:@F@exif_mnote_data_set_offset:
+        name: exif_mnote_data_set_offset
+      c:@F@exif_mnote_data_unref:
+        name: exif_mnote_data_unref
+      c:@F@exif_set_long:
+        name: exif_set_long
+      c:@F@exif_set_rational:
+        name: exif_set_rational
+      c:@F@exif_set_short:
+        name: exif_set_short
+      c:@F@exif_set_slong:
+        name: exif_set_slong
+      c:@F@exif_set_srational:
+        name: exif_set_srational
+      c:@F@exif_set_sshort:
+        name: exif_set_sshort
+      c:@F@exif_tag_from_name:
+        name: exif_tag_from_name
+      c:@F@exif_tag_get_description:
+        name: exif_tag_get_description
+      c:@F@exif_tag_get_description_in_ifd:
+        name: exif_tag_get_description_in_ifd
+      c:@F@exif_tag_get_name:
+        name: exif_tag_get_name
+      c:@F@exif_tag_get_name_in_ifd:
+        name: exif_tag_get_name_in_ifd
+      c:@F@exif_tag_get_support_level_in_ifd:
+        name: exif_tag_get_support_level_in_ifd
+      c:@F@exif_tag_get_title:
+        name: exif_tag_get_title
+      c:@F@exif_tag_get_title_in_ifd:
+        name: exif_tag_get_title_in_ifd
+      c:@F@exif_tag_table_count:
+        name: exif_tag_table_count
+      c:@F@exif_tag_table_get_name:
+        name: exif_tag_table_get_name
+      c:@F@exif_tag_table_get_tag:
+        name: exif_tag_table_get_tag
+      c:@F@mnote_apple_entry_get_value:
+        name: mnote_apple_entry_get_value
+      c:@F@mnote_apple_tag_get_description:
+        name: mnote_apple_tag_get_description
+      c:@F@mnote_apple_tag_get_name:
+        name: mnote_apple_tag_get_name
+      c:@F@mnote_apple_tag_get_title:
+        name: mnote_apple_tag_get_title
+      c:@F@mnote_canon_entry_count_values:
+        name: mnote_canon_entry_count_values
+      c:@F@mnote_canon_entry_get_value:
+        name: mnote_canon_entry_get_value
+      c:@F@mnote_canon_tag_get_description:
+        name: mnote_canon_tag_get_description
+      c:@F@mnote_canon_tag_get_name:
+        name: mnote_canon_tag_get_name
+      c:@F@mnote_canon_tag_get_name_sub:
+        name: mnote_canon_tag_get_name_sub
+      c:@F@mnote_canon_tag_get_title:
+        name: mnote_canon_tag_get_title
+      c:@F@mnote_canon_tag_get_title_sub:
+        name: mnote_canon_tag_get_title_sub
+      c:@F@mnote_fuji_entry_get_value:
+        name: mnote_fuji_entry_get_value
+      c:@F@mnote_fuji_tag_get_description:
+        name: mnote_fuji_tag_get_description
+      c:@F@mnote_fuji_tag_get_name:
+        name: mnote_fuji_tag_get_name
+      c:@F@mnote_fuji_tag_get_title:
+        name: mnote_fuji_tag_get_title
+      c:@F@mnote_olympus_entry_get_value:
+        name: mnote_olympus_entry_get_value
+      c:@F@mnote_olympus_tag_get_description:
+        name: mnote_olympus_tag_get_description
+      c:@F@mnote_olympus_tag_get_name:
+        name: mnote_olympus_tag_get_name
+      c:@F@mnote_olympus_tag_get_title:
+        name: mnote_olympus_tag_get_title
+      c:@F@mnote_pentax_entry_get_value:
+        name: mnote_pentax_entry_get_value
+      c:@F@mnote_pentax_tag_get_description:
+        name: mnote_pentax_tag_get_description
+      c:@F@mnote_pentax_tag_get_name:
+        name: mnote_pentax_tag_get_name
+      c:@F@mnote_pentax_tag_get_title:
+        name: mnote_pentax_tag_get_title
+      c:@S@ExifGPSIfdTagInfo:
+        name: ExifGPSIfdTagInfo
+      c:@S@_ExifContent:
+        name: _ExifContent
+      c:@S@_ExifContentPrivate:
+        name: _ExifContentPrivate
+      c:@S@_ExifData:
+        name: _ExifData
+      c:@S@_ExifDataPrivate:
+        name: _ExifDataPrivate
+      c:@S@_ExifEntry:
+        name: _ExifEntry
+      c:@S@_ExifEntryPrivate:
+        name: _ExifEntryPrivate
+      c:@S@_ExifLoader:
+        name: _ExifLoader
+      c:@S@_ExifLog:
+        name: _ExifLog
+      c:@S@_ExifMem:
+        name: _ExifMem
+      c:@S@_ExifMnoteData:
+        name: _ExifMnoteData
+      c:@S@_ExifMnoteDataApple:
+        name: _ExifMnoteDataApple
+      c:@S@_ExifMnoteDataCanon:
+        name: _ExifMnoteDataCanon
+      c:@S@_ExifMnoteDataFuji:
+        name: _ExifMnoteDataFuji
+      c:@S@_ExifMnoteDataMethods:
+        name: _ExifMnoteDataMethods
+      c:@S@_ExifMnoteDataOlympus:
+        name: _ExifMnoteDataOlympus
+      c:@S@_ExifMnoteDataPentax:
+        name: _ExifMnoteDataPentax
+      c:@S@_ExifMnoteDataPriv:
+        name: _ExifMnoteDataPriv
+      c:@S@_MnoteAppleEntry:
+        name: _MnoteAppleEntry
+      c:@S@_MnoteCanonEntry:
+        name: _MnoteCanonEntry
+      c:@S@_MnoteFujiEntry:
+        name: _MnoteFujiEntry
+      c:@S@_MnoteFujiEntryPrivate:
+        name: _MnoteFujiEntryPrivate
+      c:@S@_MnoteOlympusEntry:
+        name: _MnoteOlympusEntry
+      c:@S@_MnotePentaxEntry:
+        name: _MnotePentaxEntry
+      c:@SA@ExifRational:
+        name: ExifRational
+      c:@SA@ExifSRational:
+        name: ExifSRational
+      c:@T@va_list:
+        name: va_list
+      c:exif-content.h@T@ExifContent:
+        name: ExifContent
+      c:exif-content.h@T@ExifContentForeachEntryFunc:
+        name: ExifContentForeachEntryFunc
+      c:exif-content.h@T@ExifContentPrivate:
+        name: ExifContentPrivate
+      c:exif-data.h@T@ExifData:
+        name: ExifData
+      c:exif-data.h@T@ExifDataForeachContentFunc:
+        name: ExifDataForeachContentFunc
+      c:exif-data.h@T@ExifDataPrivate:
+        name: ExifDataPrivate
+      c:exif-entry.h@T@ExifEntry:
+        name: ExifEntry
+      c:exif-entry.h@T@ExifEntryPrivate:
+        name: ExifEntryPrivate
+      c:exif-loader.h@T@ExifLoader:
+        name: ExifLoader
+      c:exif-log.h@T@ExifLog:
+        name: ExifLog
+      c:exif-log.h@T@ExifLogFunc:
+        name: ExifLogFunc
+      c:exif-mem.h@T@ExifMem:
+        name: ExifMem
+      c:exif-mem.h@T@ExifMemAllocFunc:
+        name: ExifMemAllocFunc
+      c:exif-mem.h@T@ExifMemFreeFunc:
+        name: ExifMemFreeFunc
+      c:exif-mem.h@T@ExifMemReallocFunc:
+        name: ExifMemReallocFunc
+      c:exif-mnote-data-priv.h@T@ExifMnoteDataMethods:
+        name: ExifMnoteDataMethods
+      c:exif-mnote-data-priv.h@T@ExifMnoteDataPriv:
+        name: ExifMnoteDataPriv
+      c:exif-mnote-data.h@T@ExifMnoteData:
+        name: ExifMnoteData
+      c:exif-utils.h@T@ExifLong:
+        name: ExifLong
+      c:exif-utils.h@T@ExifSLong:
+        name: ExifSLong
+      c:exif-utils.h@T@ExifSShort:
+        name: ExifSShort
+      c:exif-utils.h@T@ExifShort:
+        name: ExifShort
+      c:mnote-apple-entry.h@T@MnoteAppleEntry:
+        name: MnoteAppleEntry
+      c:mnote-canon-entry.h@T@MnoteCanonEntry:
+        name: MnoteCanonEntry
+      c:mnote-fuji-entry.h@T@MnoteFujiEntry:
+        name: MnoteFujiEntry
+      c:mnote-olympus-entry.h@T@MnoteOlympusEntry:
+        name: MnoteOlympusEntry
+      c:mnote-pentax-entry.h@T@MnotePentaxEntry:
+        name: MnotePentaxEntry
